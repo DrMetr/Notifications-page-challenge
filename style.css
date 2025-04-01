@@ -6,5 +6,89 @@
     --Lightgrayishblue2: hsl(205,33%,90%);
     --Grayishblue: hsl(219,14%,63%);
     --Darkgrayishblue: hsl(219,12%,42%);
-    --Verydarkblue: hsl(224,21%,14%);
+    --Verydarkblue: hsl(224, 21%, 14%);
     }
+
+body {
+    background-color: var(--Lightgrayishblue2);
+    color: var(--Grayishblue);
+    font-size: 16px;
+    font-weight: 500;
+    font-family: 'Plus Jakarta Sans';
+}
+
+main {
+    background-color: var(--Verylightgrayishblue);
+    min-width: 330px;
+
+    @media screen and (min-width: 768px) {
+        min-width: 600px;
+        max-width: 50vw;
+    }
+}
+
+h1 {
+    color: var(--Verydarkblue);
+    font-weight: 800;
+}
+
+button {
+    border: none;
+    margin: 0;
+    padding: 0;
+    width: auto;
+    overflow: visible;
+    background: transparent;
+    color: var(--Grayishblue);
+}
+
+.notification {
+    background-color: transparent;
+}
+
+.name {
+    font-weight: 800;
+    color: var(--Verydarkblue);
+}
+
+.avatar {
+    width: 2lh;
+    height: 2lh;
+}
+
+.action {
+    color: var(--Darkgrayishblue);
+}
+
+.number {
+    background-color: var(--Blue);
+    color: white;
+    padding-left: 0.75rem;
+    padding-right: 0.75rem;
+    font-weight: 500;
+}
+
+.message {
+    border: 1px solid var(--Lightgrayishblue2);
+    border-radius: 5px;
+    padding: 0.5rem;
+    color: var(--Darkgrayishblue);
+}
+
+.when {
+    color: var(--Grayishblue);
+    font-weight: 500;
+}
+
+.group {
+    color: var(--Blue);
+}
+
+.additional_info {
+    color: var(--Darkgrayishblue);
+    font-weight: 800;
+}
+
+.new_notification {
+    background-color: var(--Lightgrayishblue1);
+}
