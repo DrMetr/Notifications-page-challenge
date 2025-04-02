@@ -15,11 +15,15 @@ body {
     font-size: 16px;
     font-weight: 500;
     font-family: 'Plus Jakarta Sans';
+
+    @media screen and (max-width: 768px) {
+        font-size: 14px;
+    }
 }
 
 main {
     background-color: var(--Verylightgrayishblue);
-    min-width: 330px;
+    min-width: 350px;
 
     @media screen and (min-width: 768px) {
         min-width: 600px;
@@ -30,6 +34,10 @@ main {
 h1 {
     color: var(--Verydarkblue);
     font-weight: 800;
+
+    @media screen and (max-width: 768px) {
+        font-size: 25px;
+    }
 }
 
 button {
@@ -40,6 +48,14 @@ button {
     overflow: visible;
     background: transparent;
     color: var(--Grayishblue);
+}
+
+button:hover, .name:hover, a:hover{ 
+    color: var(--Blue);
+}
+
+a {
+    text-decoration: none;
 }
 
 .notification {
@@ -73,6 +89,12 @@ button {
     border-radius: 5px;
     padding: 0.5rem;
     color: var(--Darkgrayishblue);
+    background-color: var(--Verylightgrayishblue);
+}
+
+.message:hover {
+    cursor: pointer;
+    background-color: var(--Lightgrayishblue1);
 }
 
 .when {
@@ -82,13 +104,23 @@ button {
 
 .group {
     color: var(--Blue);
+    font-weight: 800;
 }
 
-.additional_info {
+.post {
     color: var(--Darkgrayishblue);
     font-weight: 800;
 }
 
 .new_notification {
+    background-color: var(--Lightgrayishblue1);
+}
+
+.picture_not {
+    height: 50px;
+    width: auto;
+}
+
+.new {
     background-color: var(--Lightgrayishblue1);
 }

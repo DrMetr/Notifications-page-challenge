@@ -1,18 +1,29 @@
   [
+    {"name": "DrMetr",
+    "avatar": "assets/images/dr-metr.png",
+    "action": "sent you a private message",
+    "additional": 
+      {"message": "Look, mom! I overcomplicated it!"},
+    "when": 3, 
+    "ago": "week ago",
+    "new": true},
+
     {"name": "Mark Webber",
     "avatar": "assets/images/avatar-mark-webber.webp",
     "action": "reacted to your recent post", 
     "additional": 
       {"post_title": "My first tournament today!"},
     "when": 1,
-    "ago": "m ago"},
+    "ago": "m ago",
+    "new": true},
 
     {"name": "Angela Gray",
     "avatar": "assets/images/avatar-angela-gray.webp",
     "action": "followed you",
     "additional": "none",
     "when": 5,
-    "ago": "m ago"},
+    "ago": "m ago",
+    "new": true},
 
     {"name": "Jacob Thompson",
     "avatar": "assets/images/avatar-jacob-thompson.webp",
@@ -20,7 +31,8 @@
     "additional": 
       {"group": "Chess Club"},
     "when": 1,
-    "ago": "day ago"},
+    "ago": "day ago",
+    "new": true},
 
     {"name": "Rizky Hasanuddin",
     "avatar": "assets/images/avatar-rizky-hasanuddin.webp",
@@ -28,15 +40,17 @@
     "additional": 
       {"message":  "Hello, thanks for setting up the Chess Club. I've been a member for a few weeks now and I'm already having lots of fun and improving my game."},
     "when": 5,
-    "ago": "days ago"},
+    "ago": "days ago",
+    "new": false},
 
     {"name": "Kimberly Smith",
-    "avatar": "images/avatar-kimberly-smith.webp",
+    "avatar": "assets/images/avatar-kimberly-smith.webp",
     "action": "commented on your picture",
     "additional": 
       {"picture": "assets/images/image-chess.webp"},
     "when": 1, 
-    "ago": "week ago"},
+    "ago": "week ago",
+    "new": false},
 
     {"name": "Nathan Peterson",
     "avatar": "assets/images/avatar-nathan-peterson.webp",
@@ -44,7 +58,8 @@
     "additional": 
       {"post_title": "5 end-game strategies to increase your win rate"},
     "when": 2, 
-    "ago": "week ago"},
+    "ago": "week ago",
+    "new": false},
 
     {"name": "Anna Kim",
     "avatar": "assets/images/avatar-anna-kim.webp",
@@ -52,13 +67,6 @@
     "additional": 
       {"group": "Chess Club"},
     "when": 2, 
-    "ago": "week ago"},
-
-    {"name": "Dr Metr",
-    "avatar": "assets/images/dr-metr.png",
-    "action": "sent you a private message",
-    "additional": 
-      {"message": "Look, mom! I overcomplicated it!"},
-    "when": 3, 
-    "ago": "week ago"}
+    "ago": "week ago",
+    "new": false}
 ]
